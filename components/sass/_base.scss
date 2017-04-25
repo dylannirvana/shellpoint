@@ -1,0 +1,31 @@
+//FONTS
+// Lato and Roboto
+// @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Rochester');
+$baseline: 18px;
+
+
+body {
+  #{headings()} {
+    font-family: 'Lato', sans-serif;
+    color: #063564;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    // color: #d3d3d3;
+    color: #333;
+    a {
+      color: #063564;
+    }
+  }
+  .btn, .btn-primary {
+    color: #292b2c;
+    border-color: #ccc;
+    background-color: #fff;
+    &:hover {
+      background-color: lighten(#333, 30%);
+    }
+  }
+
+}

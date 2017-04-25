@@ -1,0 +1,77 @@
+// TOP SPACE
+div.topspace {
+  background-color: #063564; // blue
+  color: #b7a469; // gold
+  a {
+    color: #b7a469;
+  }
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-bottom: 6px solid #b7a469;
+  // padding-bottom: 6px;
+  p {
+    font-size: .85rem;
+    color: lighten(#b7a469, 10%);
+    // color: #b7a469;
+  }
+  span#divider {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include media-breakpoint-down(xs) {
+    justify-content: space-around;
+    p {
+      font-size: .90rem;
+      line-height: $baseline*2;
+      margin-bottom: 4px;
+    }
+  }
+} // END top space
+
+// LOGO AREA
+.logo-area {
+  position: relative;
+  height: 160px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 80%;
+  }
+  @include media-breakpoint-down(sm) {
+    height: 95px;
+  }
+  // margin-top: 100px;
+} // END logo area
+
+// NAVBAR
+nav.navbar {
+  position: relative;
+  // height: 66px;
+  display: flex;
+  @include media-breakpoint-up(lg) {
+    background-color: rgba(255,255,255,.8);
+    border-top: 1px solid #d3d3d3;
+  }
+  justify-content: center;
+  // color: lighten(#063564, 5%);
+  .nav-item {
+    text-transform: uppercase;
+    margin-right: 12px;
+    a {
+      color: lighten(#063564, 7%);
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  // width: auto;
+  // margin-top: 100px;
+  > .navbar-collapse {
+    width: auto;
+  }
+  button.navbar-toggler {
+    margin-top: -18px;
+  }
+} // END navbar
