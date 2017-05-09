@@ -11,7 +11,7 @@
     }
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    // padding-top: 10px;
     border-bottom: 4px solid #b7a469;
     // padding-bottom: 6px;
     p {
@@ -27,6 +27,7 @@
       justify-content: space-around;
       p {
         // font-size: .90rem;
+
         // line-height: $baseline*2;
         margin-bottom: 8px;
       }
@@ -89,7 +90,7 @@
       width: auto;
     }
     button.navbar-toggler {
-      margin-top: -34px;
+      // margin-top: -34px;
     }
   } // END navbar
 
@@ -115,7 +116,7 @@
 
   // CAROUSEL
   .carousel-inner {
-    max-height: 400px;
+    // max-height: 400px;
     // position: relative;
     // width: 100%;
     // overflow: hidden;
@@ -149,76 +150,24 @@
 
 } // END top container
 
-// MEMBER CARD
-.member-card {
-  padding-top: 26px;
-  padding-right: 26px;
-  padding-bottom: 16px;
-  padding-left: 26px;
-  text-align: center;
-
-  &:hover a.btn {
-    opacity: 1;
-    transform: scale(1);
-  }
-  a.btn {
-    // margin-bottom: 4px;
-    opacity: 0;
-    transform: scale(0);
-    transition: all 0.3s ease 0s;
-    // transition-property: all;
-    // transition-duration: 0.3s;
-    // transition-timing-function: ease;
-    // transition-delay: 0s;
-    // &:hover {
-    //   opacity: 1;
-    //   // transform: scale(1);
-    // }
-  }
-} // END member card
-
-#member-card-1 {
-  background-color: rgba(102,6,0,.5);
-  padding-left: 40px; // kind of a weird fix
-}
-#member-card-2 {
-  background-color: rgba(227,189,57,.5);
-}
-#member-card-3 {
-  background-color: rgba(32,0,0,.5);
+.container {
+  margin-top: 66px;
 }
 
-.other-card {
-  // margin-bottom: 2em;
+.subhead {
+  margin-top: 44px;
 }
-
-.card {
-  max-width: 20rem;
-  height: auto;
-}
-
-// This is the section
-.more-cards {
-  justify-content: center;
-  margin-bottom: 26px;
-  text-decoration: none;
-  a {
-    &:hover, &:visited {
-      text-decoration: none;
-    }
-  }
-  img {
-    width: 200px;
-    height: 200px;
-  }
-}
-
 // VDO
 .vdo {
   display: flex;
   justify-content: center;
 }
 
+// FLOORPLANS
+.floorplans {
+  // display: flex;
+  padding: 4px;
+}
 // TESTIMONIALS
 .testimonials {
   display: flex;
@@ -229,11 +178,11 @@
   margin-top: 44px;
   margin-bottom: 14px;
   background-color: #fff;
-
+  height: 166px;
   .carousel-caption {
     position: static;
-    h3 {
-      font-family: 'Rochester', cursive;
+    h4 {
+      font-family: 'Satisfy', cursive;
       font-size: 2rem;
     }
 
@@ -261,6 +210,7 @@ footer.footer {
   padding-right: 100px;
   padding-bottom: 60px;
   padding-left: 50px;
+  margin-top: 180px;
 
   img {
     max-width: 320px;
@@ -283,9 +233,14 @@ footer.footer {
   height: auto;
   display: flex;
   margin-bottom: 24px;
+  background-size: cover;
 }
 
 .secondary-title {
   padding-bottom: 1.4em;
   text-align: center;
+}
+
+.article {
+  margin-top: 66px;
 }

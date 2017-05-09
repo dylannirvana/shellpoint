@@ -19,12 +19,15 @@
 //
 // // TWBS 3
 @import "../../app/public/libs/bootstrap/scss/bootstrap.scss";
+// @import "../../app/public/libs/animate/animate.scss";
 // @import "bootstrap";
 //
 // // DOCUMENT
 @import "base";
 @import "layout";
-// @import "nav";
+@import "nav";
+@import "carousel";
+@import "card";
 //
 // // MODULES
 // @import "modules/fine-arts-east";

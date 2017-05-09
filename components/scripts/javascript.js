@@ -31,7 +31,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 // PIN THE NAV WITH SCROLL MAGIC
 var controller = new ScrollMagic.Controller();
 var containerScene = new ScrollMagic.Scene({
-				// offset: 394,
+				// offset: 154,
 				offset: 214,
         // triggerElement: '#target'
         // duration: 500
@@ -40,4 +40,22 @@ var containerScene = new ScrollMagic.Scene({
     // .addIndicators()
     .addTo(controller);
 
+
+    // Add slideDown animation to Bootstrap dropdown when expanding.
+ $('.dropdown').on('show.bs.dropdown', function() {
+   $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+ });
+
+ // Add slideUp animation to Bootstrap dropdown when collapsing.
+ $('.dropdown').on('hide.bs.dropdown', function() {
+   $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+ });
+
+});
+
+$(".carousel-item").ready(function(){
+    $("img").addClass("animated fadeIn");
+    $("h3").addClass("animated fadeInDown");
+    $(".carousel-caption > p").addClass("animated fadeInLeft");
+    $(".carousel-caption > h6").addClass("animated fadeInUp");
 });

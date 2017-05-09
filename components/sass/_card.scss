@@ -1,0 +1,108 @@
+// MEMBER CARD
+.member-card {
+  padding-top: 26px;
+  padding-right: 26px;
+  padding-bottom: 16px;
+  padding-left: 26px;
+  text-align: center;
+  max-width: 100%;
+  background-size: cover !important;
+  // background-repeat: no-repeat;
+  #{headings()} {
+    color: #fff;
+  }
+  p {
+    color: beige;
+    // text-shadow: 1px 1px #ccc;
+  }
+
+  &:hover a.btn {
+    opacity: 1;
+    transform: scale(1);
+  }
+  a.btn {
+    // margin-bottom: 4px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+    // transition-property: all;
+    // transition-duration: 0.3s;
+    // transition-timing-function: ease;
+    // transition-delay: 0s;
+    // &:hover {
+    //   opacity: 1;
+    //   // transform: scale(1);
+    // }
+  }
+} // END member card
+
+#member-card-1 {
+  // background-color: rgba(102,6,0,.1);
+  background: url("../img/golf.jpg");
+  img {
+opacity: .5;
+  }
+  padding-left: 40px; // kind of a weird fix
+}
+#member-card-2 {
+  // background-color: rgba(227,189,57,.1);
+  background: url("../img/friends.jpg");
+  img {
+opacity: .5;
+  }
+}
+#member-card-3 {
+  // background-color: rgba(32,0,0,.1);
+  background: url("../img/driveway.jpg");
+
+}
+
+.other-card {
+  // margin-bottom: 2em;
+}
+
+.card {
+  max-width: 20rem;
+  height: auto;
+  border: none;
+  padding-left: 0;
+  padding-right: 8px;
+}
+
+// This is the section
+.card-block {
+  &:hover {
+    // background-color: beige;
+  }
+  height: 180px;
+}
+.vdo-testimonials {
+  // max-width="560" height="auto"
+}
+
+.more-cards {
+  justify-content: center;
+  margin-bottom: 26px;
+  text-decoration: none;
+  a {
+    &:hover, &:visited {
+      text-decoration: none;
+      background-color: beige;
+      .arrow-up {
+          width: 0;
+          height: 0;
+          border-left: 1em solid transparent;
+          border-right: 1em solid transparent;
+          border-bottom: 1em solid beige;
+          left: 45%;
+          position: absolute;
+          bottom: 180px;
+          transition: all 0.3s ease 0s;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

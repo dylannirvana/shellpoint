@@ -11,6 +11,7 @@
       <!-- Bootstrap core CSS -->
       <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
       <link href="css/style.css" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">
 
       <!-- FONT AWESOME CDN -->
       <script src="https://use.fontawesome.com/8fc32e44ef.js"></script>
@@ -19,7 +20,7 @@
       <script>
         WebFont.load({
           google: {
-            families: ['Lato', 'Roboto']
+            families: ['Lato', 'Roboto', 'Satisfy']
           }
         });
       </script>

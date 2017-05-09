@@ -31,5 +31,10 @@
     "gulp-sourcemaps": "^2.5.1",
     "gulp-uglify": "^2.1.2",
     "gulp-util": "^3.0.8"
-  }
+  },
+  "version": "0.0.5",
+  "keywords": [
+    "responsive",
+    "bootstrap"
+  ]
 }

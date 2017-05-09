@@ -13,7 +13,7 @@
       <div class="container">
 
 <!-- MAIN ARTICLE -->
-<article id="scene2">
+<article id="scene2" class="article">
   <h3>Welcome to the Club!</h3>
   <div class="row">
     <div class="col-md-6">

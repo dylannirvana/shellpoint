@@ -1,0 +1,30 @@
+// #scene2 :first-child {
+//   animation-delay: 1s;
+// }
+#target {
+  .carousel-item:nth-child(2) {
+    .carousel-caption {
+      h3 {
+        color: #fff;
+      }
+      p {
+        color: #c5ecfc;
+      }
+    }
+  }
+  .carousel-item:nth-child(3) {
+    .carousel-caption {
+      h3 {
+        color: #fff;
+      }
+      p {
+        color: #000;
+      }
+    }
+  }
+  // .carousel-item:nth-child(3) {
+  //   .carousel-caption {
+  //     color: #c5ecfc;
+  //   }
+  // }
+}

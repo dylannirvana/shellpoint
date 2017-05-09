@@ -7,18 +7,20 @@ div.topspace {
   }
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  // padding-top: 10px;
   border-bottom: 6px solid #b7a469;
   // padding-bottom: 6px;
   p {
     font-size: .85rem;
     color: lighten(#b7a469, 10%);
+    margin-top: 8px;
+    margin-bottom: 8px;
     // color: #b7a469;
   }
-  span#divider {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  // span#divider {
+  //   padding-left: 10px;
+  //   padding-right: 10px;
+  // }
   @include media-breakpoint-down(xs) {
     justify-content: space-around;
     p {
@@ -32,18 +34,33 @@ div.topspace {
 // LOGO AREA
 .logo-area {
   position: relative;
-  height: 160px;
+  // height: 160px;
   background-color: white;
   display: flex;
   justify-content: center;
   img {
     height: 80%;
   }
+
   @include media-breakpoint-down(sm) {
     height: 95px;
   }
   // margin-top: 100px;
 } // END logo area
+button#dropdownMenuButton, .dropdown-toggle {
+  background: transparent;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+.btn {
+  border: none;
+}
+.btn-secondary:focus, .btn-secondary.focus {
+  box-shadow: none;
+}
+
 
 // NAVBAR
 nav.navbar {
@@ -56,6 +73,7 @@ nav.navbar {
   }
   justify-content: center;
   // color: lighten(#063564, 5%);
+
   .nav-item {
     text-transform: uppercase;
     margin-right: 12px;
@@ -63,6 +81,7 @@ nav.navbar {
       color: lighten(#063564, 7%);
       &:hover {
         color: black;
+        cursor: pointer;
       }
     }
   }
@@ -72,6 +91,11 @@ nav.navbar {
     width: auto;
   }
   button.navbar-toggler {
-    margin-top: -18px;
+    margin-top: 38px;
+    @include media-breakpoint-down(xs) {
+      margin-top: 62px;
+    }
+    background-color: #fff;
+    opacity: .5;
   }
 } // END navbar
