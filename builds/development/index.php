@@ -5,12 +5,12 @@
 
   </div>  <!-- END top container -->
 
-      <!-- CARDS -->
+<!-- CARDS -->
 <?php include 'modules/cards.php'; ?>
 
       <hr>
 
-      <div class="container">
+  <div class="container">
 
 <!-- MAIN ARTICLE -->
 <article id="scene2" class="article">
@@ -26,7 +26,7 @@
   </div>
 </article>
 
-    </div> <!-- END CONTAINER allows card section to go full width -->
+  </div> <!-- END CONTAINER allows card section to go full width -->
 
 <!-- MORE CARDS -->
 <?php include 'modules/morecards.php'; ?>

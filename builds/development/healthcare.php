@@ -33,7 +33,7 @@
                   </ul>
               </div> <!-- END row -->
 
-            <div class="row">
+            <div id="assisted" class="row">
               <h3 class="subhead">Assisted Living at Shell Point - Three Great Options</h3>
                 <div class="col-md-12">
                   <p>When it comes to making any kind of selection in life, it's always nice to have more than one great option from which to choose. Such is the case at Shell Point in regard to assisted living. Individuals looking for this level of care have the option of being able to choose between three excellent assisted living facilities - The Springs, King's Crown on The Island, and The Arbor in The Woodlands. </p>
@@ -78,7 +78,7 @@
                 <p>Each of these facilities offers assisted living care which enables residents to manage their personal and physical needs through the availability of many services. These services have been designed to enhance dignity and independence through a variety of recreational, social, physical, and spiritual programs that convey the exceptional lifestyle for which Shell Point is known.</p>
               </div> <!-- END row -->
 
-              <div class="row">
+              <div id="nursing"  class="row">
                 <h3>Skilled Nursing</h3>
                 <p>The Larsen Pavilion Skilled Nursing Center provides personalized and compassionate care in a beautiful waterfront setting. This facility provides superior care and above average staffing ratios that include on-site staff physicians and a nurse practitioner making daily rounds, as well as registered nurses, certified nursing assistants, and other healthcare professionals all focused on providing person-centered care to residents.</p>
                 <div class="col-md-4">
@@ -107,7 +107,10 @@
           </div>
 
 <!-- SIDEBAR ================================= -->
-          <div class="col-md-4">
+          <div id="rehab"  class="col-md-4">
+
+            <h4>Skilled Nursing</h4>
+            <p>The Larsen Pavilion provides personalized and compassionate care in a beautiful waterfront setting.</p>
 
             <h4>Rehab Services</h4>
             <p>Inpatient and outpatient; long- or short-term; resident or individuals from outside; we provide the full range of rehabilitation services.</p>
@@ -118,13 +121,10 @@
             <h4>Assisted Living</h4>
             <p>As we grow older, it can be helpful to utilize the assistance of others.</p>
 
-            <h4>Memory Care</h4>
+            <h4 id="memory" >Memory Care</h4>
             <p>Dedicated to enhancing the lives of people with advanced memory loss, Alzheimer's disease, and other dementia.</p>
 
-            <h4>Skilled Nursing</h4>
-            <p>The Larsen Pavilion provides personalized and compassionate care in a beautiful waterfront setting.</p>
-
-            <h4>Hospice Care</h4>
+            <h4 id="hospice" >Hospice Care</h4>
             <p>Hospice Care at Shell Point is a collaboration with Hope Hospice and includes palliative and hospice care.</p>
 
             <h3>Skilled Nursing and Rehabilitative Services</h3>

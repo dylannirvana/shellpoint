@@ -5,14 +5,17 @@
 
       <div class="container">
 
-<!-- MAIN ARTICLE -->
+<!--  ARTICLE -->
       <article class="">
 
+      <!-- TITLE -->
         <h1 class="secondary-title">One Community. Multiple Neighborhoods</h1>
 
+      <!-- MAIN SECTION -->
         <div class="row">
           <div class="col-md-8">
 
+      <!-- NEIGHBORHOODS -->
           <h3 class ="subhead"  id="estuary">The Estuary. Our Newest Community</h3>
             <div class="secondary-image">
               <img src="img/community/estuary.jpg" alt="" />
@@ -35,11 +38,11 @@
             <div class="secondary-image">
               <img src="img/community/eagles.jpg" alt="" />
             </div>
-            <p>Tucked away between the 14th and 16th fairways of the championship 18-hole Shell Point Golf Club, Eagles Preserve offers a secluded enclave of residences designed for the active retiree. <a href="estuary.php">Learn More</a></p>
+            <p>Tucked away between the 14th and 16th fairways of the championship 18-hole Shell Point Golf Club, Eagles Preserve offers a secluded enclave of residences designed for the active retiree. <a href="eagles.php">Learn More</a></p>
 
-          </div>
+          </div> <!-- END column -->
 
-          <!-- SIDEBAR ================================= -->
+        <!-- SIDEBAR ================================= -->
           <div class="col-md-4">
             <p>Truly, when it comes to living at Shell Point, variety is the spice of life. This article explores the unique architectural designs within the Shell Point Community.</p>
 
@@ -56,12 +59,12 @@
               Need access to the actual YouTube videos, not downloads.
             </p>
 
-            <!-- FLOOR PLANS -->
-            <div class="floorplans">
+          <!-- FLOOR PLANS -->
+            <div class="floorplans" id="plans">
               <h3 class ="subhead">Floor Plans</h3>
               <div class="row">
 
-                <div id="plans" class="col-sm-6">
+                <div class="col-sm-6">
                   <div class="">
                     <img src="http://placehold.it/140x100" alt="">
                     <h6>floor plan</h6>
@@ -101,7 +104,7 @@
               </div>
             </div> <!-- END floorplans -->
 
-            <!-- TESTIMONIALS -->
+          <!-- TESTIMONIALS -->
             <div id="testimonials" class="">
               <!-- <div class="row">
                 <div class="col-sm-12"> -->
@@ -116,12 +119,10 @@
                   <p>A Gift To Our Children Several residents speak on how coming to Shell Point gives their children peace of mind. ( Length: 1 min 38 secs.)</p>
                 <!-- </div>
               </div> -->
-
             </div>
 
           </div> <!-- END col-md-4 -->
         </div> <!-- END row -->
-
       </article>
 
     <!-- </div>  -->
@@ -129,7 +130,7 @@
 
     <!-- <div class="container"> -->
 
-    <!-- TOURS -->
+  <!-- TOURS -->
     <div id="tours" class="vdo">
       <div class="row">
         <div class="col-md-12">
@@ -144,11 +145,11 @@
 <!-- ASIDE  -->
       <aside id="">
 
-        <h3 class ="subhead" >Explore Your Options</h3>
+        <h3 id="pricing" class ="subhead" >Explore Your Options</h3>
         <div class="row">
           <div class="col-md-4">
             <p>Take advantage of this unique opportunity to have a guided tour through the finest retirement community of its kind. Shell Point has been providing stability and peace of mind to retiring seniors for more than 40 years. So, if you've ever considered Shell Point's gracious retirement lifestyle, now is the perfect time to make your move!</p>
-            <p>You will be introduced to our unmatched lifestyle opportunities, get detailed explanations of our lifecare contracts, learn about our state-of-the-art healthcare facilities and visit the neighborhoods that most interest you!</p>
+            <p>You will be introduced to our unmatched lifestyle opportunities, get detailed explanations of our lifecare contracts, learn about our state-of-the-art healthcare facilities and visit the neighborhoods that most interest you! <a href="tours.php">Learn More</a></p>
           </div>
           <div class="col-md-8">
             <div class="secondary-image">
@@ -156,15 +157,15 @@
             </div>
           </div>
         </div>
-        <!-- PRICE PLANS -->
-        <div id="pricing" class="pricing">
+
+      <!-- PRICE PLANS -->
+        <div class="pricing">
           <div class="row">
             <div class="col-md-12">
               <h3 class="subhead">Lifecare Contracts - A Sound Investment for a Secure Tomorrow</h3>
                 <p>As we all know, planning ahead is the best assurance. In today's environment of escalating health care cost, Shell Point's comprehensive levels of care set it apart. To accommodate the unique needs and situations of our residents, Shell Point offers four contracts to provide a wide variety of options. These contracts are easy to understand and provide a range of packages to take the worry out of retirement while meeting your budget requirements.</p>
             </div>
           </div>
-
 
           <div class="cards">
             <h3 class="subhead">Pricing</h3>
@@ -189,8 +190,6 @@
           </div>
 
         </div> <!-- END pricing -->
-
-
 
       </aside>
 

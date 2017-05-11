@@ -8530,8 +8530,8 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #063564;
 }
 body h1 {
-  font-size: 2.6rem;
-  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: 'Satisfy', cursive;
 }
 @media (max-width: 767px) {
   body h1 {
@@ -8545,9 +8545,10 @@ body h1 {
 body p {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  font-size: 1.1rem;
 }
 body p a {
-  color: #063564;
+  color: #0a5bac;
 }
 body .btn, body .btn-primary {
   color: #292b2c;
@@ -8561,6 +8562,55 @@ body .btn:hover, body .btn-primary:hover {
 body .btn:hover, body .btn-primary:hover {
   background-color: #063564;
   color: #fff;
+}
+
+.event {
+  background-color: yellow;
+}
+
+.script {
+  font-family: 'Satify', cursive;
+}
+
+.box {
+  padding-bottom: 18px !important;
+  margin-bottom: 44px !important;
+  border-top: none;
+  border-left: none;
+  border-bottom: solid 1px #F0F0F0;
+}
+
+.widget {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 36px;
+  line-height: 35px;
+  margin-left: -5px;
+  padding-left: 40px;
+  position: relative;
+  text-transform: uppercase;
+  background: #008a9b none repeat scroll 0 0;
+}
+.widget::before {
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  bottom: -10px;
+  content: "";
+  height: 0;
+  left: -10px;
+  position: absolute;
+  width: 0;
+  border-right: 10px solid #00555f;
+}
+.widget::after {
+  background: transparent repeat scroll 0 0;
+  content: "";
+  height: 36px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4px;
 }
 
 .top-container div.topspace {
