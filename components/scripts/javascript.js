@@ -59,3 +59,10 @@ $(".carousel-item").ready(function(){
     $(".carousel-caption > p").addClass("animated fadeInLeft");
     $(".carousel-caption > h6").addClass("animated fadeInUp");
 });
+
+// THIS A HANDY LITTLE ROLLOVER PATTERN
+$('ul.navbar-nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});

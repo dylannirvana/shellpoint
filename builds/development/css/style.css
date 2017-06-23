@@ -1,3 +1,4 @@
+/* HAPPY TIMES */
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -8635,33 +8636,38 @@ body .btn:hover, body .btn-primary:hover {
   .top-container div.topspace {
     justify-content: space-around;
   }
-  .top-container div.topspace p {
-    margin-bottom: 8px;
-  }
 }
 .top-container .logo-area {
-  height: 160px;
   background-color: white;
   display: flex;
   justify-content: center;
 }
-@media (max-width: 575px) {
-  .top-container .logo-area {
+@media (max-width: 767px) {
+  .top-container .logo-area img {
     height: 95px;
   }
 }
-.top-container .logo-area img {
-  height: 80%;
-}
-@media (max-width: 767px) {
-  .top-container .logo-area img {
-    max-height: 102px;
-  }
-}
 @media (max-width: 575px) {
   .top-container .logo-area img {
-    max-height: 75px;
+    height: 75px;
   }
+}
+.top-container button#dropdownMenuButton, .top-container .dropdown-toggle {
+  background: transparent;
+}
+@media (max-width: 575px) {
+  .top-container button#dropdownMenuButton, .top-container .dropdown-toggle {
+    height: 2.6em;
+  }
+}
+.top-container .dropdown-toggle::after {
+  content: none;
+}
+.top-container .btn {
+  border: none;
+}
+.top-container .btn-secondary:focus, .top-container .btn-secondary.focus {
+  box-shadow: none;
 }
 .top-container nav.navbar {
   position: relative;
@@ -8824,39 +8830,9 @@ div.topspace p {
   }
 }
 
-.logo-area {
-  position: relative;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
-.logo-area img {
-  height: 80%;
-}
-@media (max-width: 767px) {
-  .logo-area {
-    height: 95px;
-  }
-}
-
-button#dropdownMenuButton, .dropdown-toggle {
-  background: transparent;
-}
-
-.dropdown-toggle::after {
-  content: none;
-}
-
-.btn {
-  border: none;
-}
-
-.btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: none;
-}
-
 nav.navbar {
   position: relative;
+  height: 66px;
   display: flex;
   justify-content: center;
 }
@@ -8877,18 +8853,16 @@ nav.navbar .nav-item a:hover {
   color: black;
   cursor: pointer;
 }
+nav.navbar .navbar-toggler-right {
+  justify-content: flex-end;
+  right: 1rem;
+}
 nav.navbar > .navbar-collapse {
   width: auto;
 }
 nav.navbar button.navbar-toggler {
-  margin-top: 38px;
   background-color: #fff;
   opacity: .5;
-}
-@media (max-width: 575px) {
-  nav.navbar button.navbar-toggler {
-    margin-top: 62px;
-  }
 }
 
 #target .carousel-item:nth-child(2) .carousel-caption h3 {

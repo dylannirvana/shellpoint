@@ -33,39 +33,26 @@ div.topspace {
 
 // LOGO AREA
 .logo-area {
-  position: relative;
-  // height: 160px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  img {
-    height: 80%;
-  }
+  // position: relative;
+  // // height: 160px;
+  // background-color: white;
+  // display: flex;
+  // justify-content: center;
+  // img {
+  //   height: 80%;
+  //   width: auto;
+  // }
 
-  @include media-breakpoint-down(sm) {
-    height: 95px;
-  }
+
   // margin-top: 100px;
 } // END logo area
-button#dropdownMenuButton, .dropdown-toggle {
-  background: transparent;
-}
 
-.dropdown-toggle::after {
-  content: none;
-}
-.btn {
-  border: none;
-}
-.btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: none;
-}
 
 
 // NAVBAR
 nav.navbar {
   position: relative;
-  // height: 66px;
+  height: 66px;
   display: flex;
   @include media-breakpoint-up(lg) {
     background-color: rgba(255,255,255,.8);
@@ -85,15 +72,28 @@ nav.navbar {
       }
     }
   }
+// ul.navbar-nav li.dropdown {
+//   .dropdown-item {
+//     visibility: hidden;
+//     &:hover {
+//       visibility: visible;
+//     }
+//   }
+// }
+  .navbar-toggler-right {
+    // position: static;
+    justify-content: flex-end;
+    right: 1rem;
+}
   // width: auto;
   // margin-top: 100px;
   > .navbar-collapse {
     width: auto;
   }
   button.navbar-toggler {
-    margin-top: 38px;
+    // margin-top: -12px;
     @include media-breakpoint-down(xs) {
-      margin-top: 62px;
+      // margin-top: 62px;
     }
     background-color: #fff;
     opacity: .5;
